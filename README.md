@@ -11,10 +11,10 @@ Sample dataset is divided into 3 layers:
 The program analyzes the queries, and give points to each product by some steps and then finally picks up top 'n' products to be displayed.
 
 Steps to rate the product:
-1) Searches if any query is related to Main Category. If yes , increments points of each product in that Main Category. 
+1) Searches if any query is related to Main Category. If yes , increments points of each product in that Main Category. <br>
     (In step 1, it increments points of Sub Category which then will increment points of each product)
 2) Searches if any query is related to Sub Category. If yes , increments points of each product in that Sub Category. 
 3) Searches if any query is directly related to a product. If yes, increments points of the product and also all the products present in same sub category as the query-related product. (Eg, query- iPhone : Means user is looking for phone, so increments all phones. Obviously it needs to be more specific, but this is basic recommendation system).
-    (In step 3 , it increments Sub Category which then will increment points of each product. NOTE: The product directly searched is incremented twice , hence has highest number of points).
+<br><br>    (In step 3 , it increments Sub Category which then will increment points of each product. NOTE: The product directly searched is incremented twice , hence has highest number of points).
     
 All other functions are just helper functions.
