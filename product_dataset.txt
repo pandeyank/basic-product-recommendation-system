@@ -1,5 +1,3 @@
 electronics;fashion;home
-
 laptop,mobile;clothes,accessories;furniture
-
 acer mac dell,iPhone asus redmi;tshirt shirt skirt jeans,belt earrings tie;sofa table chair
