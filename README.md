@@ -1,4 +1,4 @@
-# product-recommendation-system
+# A Basic Product Recommendation System
 This is a basic recommendation system for an e-commerce company like Amazon,Flipkart based on search queries on Google/E-Commerce website.
 
 Method:
